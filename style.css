@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container{
+  margin-left: 80px;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ 
+ 
+}
+
+.chat-header {
+  max-width: 500px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 20px 0;
+  background-color: rgb(48, 71, 236);
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.header-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-header svg {
+  width: 20px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white;
+}
+.profile-header {
+  display: flex;
+  line-height: 0.05rem;
+}
+.active {
+  width: 15px !important;
+  height: auto;
+  position: relative;
+  margin-top: 50px;
+  left: 90px;
+}
+.profile-header img {
+  width: 70px;
+  margin-left: 20px;
+  position: absolute;
+}
+
+.profile-header p {
+  margin-top: 40px;
+  margin-left: -50px;
+  color: white;
+  position: relative;
+  left: 100px;
+}
+.profile-header h5 {
+  color: white;
+  position: relative;
+  left: 100px;
+}
+.chat-messages{
+  max-width: 500px;
+  border-radius: 0px 0px 10px 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 19px;
+}
+.bot-img svg{
+  width: 20px;
+  height: auto;
+  margin-top: 40px;
+  margin-left: 20px;
+  color: yellow;
+  margin-top: -20px;
+  
+}
+.bot-img{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+   
+}
+.bot-img p{
+  background-color: rgb(242, 242, 242);
+  padding:15px;
+  border-radius: 5px;
+  margin-left: 5px;
+
+ 
+}
+.customer-msg p{
+  background-color: rgb(48, 71, 236);
+  padding: 15px;
+  justify-items: flex-end;
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+  color: white;
+  margin-left: 180px;
+
+}
+
+
+.line-break hr{
+  border: 1px solid #ccc; 
+  margin: 20px 0; 
+} 
+
+.line-break textarea{
+  border: none;
+  box-sizing: none;
+  margin-left: 10px;
+
+}
+
+textarea:hover {
+  outline: none;
+}
+
